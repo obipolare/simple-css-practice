@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+body {
+  background: #eee;
+}
+
+.box {
+  margin: 50px;
+  height: 80px;
+  width: 400px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-image: linear-gradient(to right, white, lightyellow);
+}
+
+.red {
+  border-left: 4px solid red;
+  transition: transform 0.5s;
+}
+
+.red:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.green {
+  border-left: 4px solid green;
+  transition: box-shadow 0.5s;
+}
+
+.green:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.blue {
+  border-left: 4px solid blue;
+  transition: background-color 0.5s;
+}
+
+.blue:hover {
+  background-color: skyblue;
+}
